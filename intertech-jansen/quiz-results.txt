@@ -13,10 +13,50 @@ Quiz 06 = 0/1
 Capitulo 5
 Quiz 07 = 2/3
 
+Capitulo 6
+Quiz 08 = 2/2
+Quiz 09 = 0/0
 
-Total = 18/23
+Capitulo 7
+Quiz 10 = 0/0
+
+Capitulo 8
+Quiz  = 0/0
+
+Capitulo 9
+Quiz  = 0/0
+
+Capitulo 10
+Quiz  = 0/0
+
+Capitulo 11
+Quiz  = 0/0
+
+Capitulo 12
+Quiz  = 0/0
+
+Capitulo 13
+Quiz  = 0/0
+
+Capitulo 14
+Quiz  = 0/0
+
+Capitulo 15
+Quiz  = 0/0
+
+Capitulo 16
+Quiz  = 0/0
+
+Capitulo 17
+Quiz  = 0/0
+
+Capitulo 18
+Quiz  = 0/0
+
+Total = 20/25
 
 Parciais:
-20/09/2021 - 88.23%;
-07/10/2021 - 78.26%;
+20/09/2021 - 88.23% - Cap. 01 - 04 
+07/10/2021 - 78.26% - Cap. 05
+08/10/2021 - 80.00% - Cap. 06
 

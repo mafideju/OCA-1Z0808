@@ -10,12 +10,12 @@ public class Order {
 	
 	public static double taxRate = 0.05;
 	
-	public Order(MyDate d, double amt, String c, String p, int q){
-		orderDate=d;
-		orderAmount=amt;
-		customer=c;
-		product=p;
-		quantity=q;
+	public Order(MyDate orderDate, double orderAmount, String customer, String product, int quantity){
+		this.orderDate = orderDate;
+		this.orderAmount = orderAmount;
+		this.customer = customer;
+		this.product = product;
+		this.quantity = quantity;
 	}
 	
 	public static void setTaxRate(double newRate) {
@@ -27,11 +27,11 @@ public class Order {
 	}
 	
 	public double computeTax() {
-		System.out.println("The tax for this order is: " + orderAmount * Order.taxRate);
-		return orderAmount * Order.taxRate;
+		System.out.println("The tax for this order is: " + this.orderAmount * Order.taxRate);
+		return this.orderAmount * Order.taxRate;
 	}
 	
 	public String toString(){
-		return quantity + " of " + product + " for " + customer; 
+		return this.quantity + " of " + this.product + " for " + this.customer; 
 	}
 }
