@@ -18,10 +18,10 @@ Quiz 08 = 2/2
 Quiz 09 = 1/3
 
 Capitulo 7
-Quiz 10 = 0/0
+No Quiz = 0/0
 
 Capitulo 8
-Quiz  = 0/0
+Quiz 10 = 2/4
 
 Capitulo 9
 Quiz  = 0/0
@@ -53,10 +53,11 @@ Quiz  = 0/0
 Capitulo 18
 Quiz  = 0/0
 
-Total = 21/28
+Total = 23/32
 
 Parciais:
 20/09/2021 - 88.23% - Cap. 01 - 04 
 07/10/2021 - 78.26% - Cap. 05
 08/10/2021 - 80.00% - Cap. 06
 14/10/2021 - 75.00% - Cap. 06
+20/10/2021 - 71.88% - Cap. 08
