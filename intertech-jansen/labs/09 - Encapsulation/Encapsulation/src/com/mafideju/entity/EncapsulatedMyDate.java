@@ -1,7 +1,6 @@
-package entity;
+package com.mafideju.entity;
 
 public class EncapsulatedMyDate {
-	
 
 	private int dia;
 	private int mes;
@@ -21,11 +20,6 @@ public class EncapsulatedMyDate {
 		this.setDia(dia);
 		this.setMes(mes);
 		this.setAno(ano);
-	}
-
-	@Override
-	public String toString() {
-		return "MyDate [Hoje é dia = " + getDia() + ", mes = " + getMes() + ", do ano = " + getAno() + "]";
 	}
 
 	public int getMes() {
@@ -52,5 +46,8 @@ public class EncapsulatedMyDate {
 		this.ano = ano;
 	}
 	
-
+	@Override
+	public String toString() {
+		return "MyDate [Hoje é dia = " + getDia() + ", mes = " + getMes() + ", do ano = " + getAno() + "]";
+	}
 }

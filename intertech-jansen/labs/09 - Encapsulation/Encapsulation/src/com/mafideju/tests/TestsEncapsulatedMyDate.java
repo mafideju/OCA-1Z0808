@@ -1,6 +1,6 @@
-package tests;
+package com.mafideju.tests;
 
-import entity.EncapsulatedMyDate;
+import com.mafideju.entity.EncapsulatedMyDate;
 
 public class TestsEncapsulatedMyDate {
 	public static void main(String[] args) { 
