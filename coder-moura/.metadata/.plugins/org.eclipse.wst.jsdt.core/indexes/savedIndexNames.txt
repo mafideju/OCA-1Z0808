@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/marciomafidejurodrigues/Projects/Java/coder-java/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3405552014.index
+2986947035.index
+1644602130.index
+2236513775.index
+2902547490.index
+4202894712.index

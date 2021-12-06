@@ -1,0 +1,26 @@
+package B_controle._dowhile;
+
+import java.util.Scanner;
+
+public class DoWhile {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		double nota;
+		double notaTotal;
+		
+		do {
+			System.out.println("Entre as notas da turma: ");
+			nota = scanner.nextDouble();
+			notaTotal = nota + nota;
+			System.out.println(notaTotal);
+		} while (nota < 0.0);
+		
+		
+		scanner.close();
+		
+	}
+
+}

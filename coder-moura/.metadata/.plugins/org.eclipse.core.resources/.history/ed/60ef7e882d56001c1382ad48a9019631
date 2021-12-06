@@ -1,0 +1,27 @@
+package B_controle.exercicios;
+
+import java.util.Scanner;
+
+public class C {
+
+	public static void main(String[] args) {
+		// Crie um programa que recebe 10 valores e ao final imprima o maior número. 
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Qual a nota? ");
+		for (int i = 1;i <= 10; i++) {
+			int maior = 0;
+			int nota = scanner.nextInt();
+			
+			if (nota > maior) {
+				System.out.println("Maior " + nota);
+			}
+			
+			
+		}
+		
+		scanner.close();
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package B_controle._dowhile;
+
+import java.util.Scanner;
+
+public class DoWhile {
+
+	public static void main(String[] args) {
+		
+		// usar do while para calcular media de alunos até a palavra sair
+		// mostrar numero de alunos e nota media
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		double nota = scanner.nextDouble();
+		double notaTotal;
+		
+		do {
+			notaTotal = nota + nota;
+			System.out.println(notaTotal);
+		} while (nota < 0);
+		
+		
+		scanner.close();
+		
+	}
+
+}
