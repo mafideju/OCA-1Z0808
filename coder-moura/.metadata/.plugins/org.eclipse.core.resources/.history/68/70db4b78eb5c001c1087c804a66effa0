@@ -1,0 +1,11 @@
+package E_oop.desafios;
+
+public class ClienteTeste {
+
+	public static void main(String[] args) {
+		
+		System.out.println("O cliente XXXXX comprou XXXXX itens e gastou XXXXX reais.");
+		
+	}
+
+}

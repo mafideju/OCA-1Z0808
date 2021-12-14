@@ -1,0 +1,15 @@
+package C_classes.exercises;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+		Comida comida = new Comida();
+		Pessoa pessoa = new Pessoa();
+		
+		
+	}
+
+	void comer() {
+		System.out.println();
+	}
+}

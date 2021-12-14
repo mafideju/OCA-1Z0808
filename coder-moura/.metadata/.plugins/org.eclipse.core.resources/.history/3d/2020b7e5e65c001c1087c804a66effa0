@@ -1,0 +1,11 @@
+package E_oop.desafios;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Compra {
+	
+	int id;
+	List<Item> itemsCompra = new ArrayList<Item>();
+
+}

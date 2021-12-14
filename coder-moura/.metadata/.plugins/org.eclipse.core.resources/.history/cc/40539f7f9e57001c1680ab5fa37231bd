@@ -1,0 +1,12 @@
+package C_classes.exercises;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+			
+	}
+
+	void comer() {
+		
+	}
+}

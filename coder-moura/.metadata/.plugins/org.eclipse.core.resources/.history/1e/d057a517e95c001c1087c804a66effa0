@@ -1,0 +1,20 @@
+package E_oop.desafios;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cliente {
+
+	String nome;
+	List<Compra> listaCompras = new ArrayList<Compra>();
+	
+	double getValorTotal() {
+		double total = 0;
+			
+		for (Compra compra: listaCompras) {
+			total = total + compra.getValorTotal();
+		}
+		
+		return total;
+	}
+}

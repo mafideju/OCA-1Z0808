@@ -1,0 +1,24 @@
+package C_classes.miniprojeto;
+
+public class ProdutoTeste {
+
+	public static void main(String[] args) {
+		
+		Produto blusa = new Produto("Blusa Moleton");
+		Produto calca = new Produto("Calça Sarja");
+		
+		blusa.preco = 199.99;
+		blusa.desconto = 0.15;
+		
+		calca.preco = 149.99;
+		calca.desconto = 0.25;
+		
+		double custoBlusa = blusa.precoComDesconto();
+		double custoCalca = calca.precoComDesconto();
+		
+		System.out.printf("%s De %.2f por %.2f !!!", blusa.nome, blusa.preco, custoBlusa);
+		System.out.println();
+		System.out.printf("%s De %.2f por %.2f !!!", calca.nome, calca.preco, custoCalca);
+	}
+
+}

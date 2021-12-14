@@ -1,0 +1,6 @@
+package C_classes.exercises;
+
+public class Pessoa {
+	String nome;
+	double peso;
+}

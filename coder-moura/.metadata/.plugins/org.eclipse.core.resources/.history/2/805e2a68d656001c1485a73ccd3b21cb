@@ -1,0 +1,20 @@
+package C_classes.miniprojeto;
+
+public class Produto {
+
+	String nome;
+	double preco;
+	double desconto;
+	
+	public Produto(String nome) {
+		nome = this.nome;
+	}
+	
+	double precoComDesconto() {
+		return preco * (1 - desconto);
+	}
+	
+	double precoComDesconto(double descontoAdd) {
+		return preco * (1 - (desconto + (descontoAdd / 100)));
+	}
+}
