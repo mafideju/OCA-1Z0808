@@ -1,0 +1,13 @@
+package G_Streams.desafios;
+
+public class Aluno {
+	String name;
+	double nota;
+	
+	public Aluno(String name, double nota) {
+		this.name = name;
+		this.nota = nota;
+	}
+	
+	
+}

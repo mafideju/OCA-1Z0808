@@ -1,0 +1,15 @@
+package E_oop.heranca.desafios;
+
+public class TesteCarro {
+	public static void main(String[] args) {
+		
+		Carro beseta = new Ferrari();
+		Carro honda = new Civic();
+		
+		honda.acelerar();
+		beseta.acelerar();
+
+		System.out.println(honda.velocidade);
+		System.out.println(beseta.velocidade);
+	}
+}

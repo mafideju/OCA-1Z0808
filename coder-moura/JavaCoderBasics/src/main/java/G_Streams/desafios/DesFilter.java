@@ -1,0 +1,37 @@
+package G_Streams.desafios;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+public class DesFilter {
+
+	public static void main(String[] args) {
+		
+		List<Integer> nums = Arrays.asList(1,2,3,4,5,6,7,8,9);
+		
+		Aluno a1 = new Aluno("Carlos", 6.5, true);
+		Aluno a2 = new Aluno("Adriana", 7.5, true);
+		Aluno a3 = new Aluno("Façanina", 10, false);
+		
+		List<Aluno> alunos = Arrays.asList(a1, a2, a3);
+		
+		Predicate<Integer> basico = x -> x % 2 == 0;
+		Predicate<Aluno> ativo = x -> x.ativo;
+		Predicate<Aluno> aprovados = x -> x.nota >= 7;
+		Function<Aluno, String> nomes = x -> x.nome + " " + x.nota; 
+		
+		nums.stream()
+		.filter(basico)
+		.forEach(System.out::println);
+		
+		alunos.stream()
+		.filter(aprovados)
+		.filter(ativo)
+		.map(nomes)
+		.forEach(System.out::println);
+
+	}
+
+}

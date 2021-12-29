@@ -1,0 +1,10 @@
+package E_oop.heranca.desafios;
+
+public class TesteCarro {
+	
+	Carro beseta = new Ferrari();
+	Carro honda = new Civic();
+	
+	Beseta.acelerar();
+
+}

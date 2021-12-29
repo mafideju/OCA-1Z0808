@@ -1,0 +1,6 @@
+package G_Streams.desafios;
+
+public class Aluno {
+	String name;
+	double nota;
+}

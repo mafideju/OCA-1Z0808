@@ -1,0 +1,5 @@
+package E_oop.heranca.desafios;
+
+public class Ferrari extends Carro {
+
+}

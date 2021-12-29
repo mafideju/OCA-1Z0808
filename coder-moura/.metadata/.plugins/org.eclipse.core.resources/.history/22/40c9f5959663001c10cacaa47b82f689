@@ -1,0 +1,9 @@
+package E_oop.heranca.desafios;
+
+public class Ferrari extends Carro {
+
+	void acelerar() {
+		super.acelerar();
+		velocidade += 10;
+	}
+}

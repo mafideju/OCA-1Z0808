@@ -1,9 +1,0 @@
-package C_classes.basics;
-
-public class Data {
-	
-	int dia = 6;
-	int mes = 12;
-	int ano = 2021;
-
-}

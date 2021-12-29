@@ -1,0 +1,27 @@
+package E_oop.heranca.desafios;
+
+public class Carro {
+
+	int velocidade;
+	final int VELOCIDADE_MAXIMA;
+	
+	Carro(int velocidadeMaxima) {
+		VELOCIDADE_MAXIMA = velocidadeMaxima;
+	}
+	
+	void acelerar() {
+		if (velocidade >= VELOCIDADE_MAXIMA) {
+			System.out.println("VOCÊ ESTÁ NA VELOCIDADE MÁXIMA!!! " + getClass().descriptorString());
+		} else {
+			velocidade += 5;
+		}
+	}
+	
+	void frear() {
+		if(velocidade > 0){
+			velocidade -=5;
+		} 
+	}
+}
+
+//ACELERAR(sobrescreve na ferrari), FREIAR (INT VELOCIDADE = 0)

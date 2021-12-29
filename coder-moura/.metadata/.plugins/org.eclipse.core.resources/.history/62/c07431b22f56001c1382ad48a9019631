@@ -1,7 +1,0 @@
-package C_classes;
-
-public class BasicOnClasses {
-	public static void main(String[] args) {
-		
-	}
-}

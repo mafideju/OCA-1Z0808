@@ -1,0 +1,14 @@
+package F_lambdas.plus;
+
+import java.util.function.BinaryOperator;
+
+public class OperadorBinario {
+
+	public static void main(String[] args) {
+
+		BinaryOperator<Integer> teste = (a, b) -> { return (a + b) / 2; };
+		System.out.println(teste.apply(10, 20));
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package E_oop.heranca.desafios;
+
+public class Carro {
+
+	int velocidade;
+	
+	void acelerar() {
+		velocidade += 5;
+	}
+	
+	void frear() {
+		velocidade -=5;
+	}
+}
+
+//ACELERAR(sobrescreve na ferrari), FREIAR (INT VELOCIDADE = 0)

@@ -1,9 +1,0 @@
-package C_classes.basics;
-
-public class Basics {
-	public static void main(String[] args) {
-		Produto comida = new Produto();
-		
-		System.out.println(comida);
-	}
-}
