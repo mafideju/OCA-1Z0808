@@ -1,0 +1,16 @@
+package H_exception.custom;
+
+public class MainClass {
+
+	public static void main(String[] args){
+
+		try {
+			Aluno aluno = new Aluno("", -1);
+			Validar.aluno(aluno);
+		} catch (StringVazia e) {
+			System.out.println(e.getMessage());
+		}
+		System.out.println("FIM");
+	}
+
+}

@@ -1,0 +1,16 @@
+package H_exception.custom;
+
+public class Validar {
+
+	private Validar() {}
+	
+	public static void aluno(Aluno aluno) {
+		if(aluno == null) {
+			throw new IllegalArgumentException("Aluno Nulo!!!");
+		}
+		
+		if (aluno.nota < 0.0) {
+			
+		}
+	}
+}

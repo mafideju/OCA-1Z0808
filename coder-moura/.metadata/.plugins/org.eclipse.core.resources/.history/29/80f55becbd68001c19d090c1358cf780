@@ -1,0 +1,12 @@
+package H_exception.custom;
+
+public class MainClass {
+
+	public static void main(String[] args) throws Throwable {
+
+		Aluno aluno = new Aluno("", -1);
+		Validar.aluno(aluno);
+		System.out.println("FIM");
+	}
+
+}
