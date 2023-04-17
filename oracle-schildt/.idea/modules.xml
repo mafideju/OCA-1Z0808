@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter-quizzes/chapter-quizzes.iml" filepath="$PROJECT_DIR$/chapter-quizzes/chapter-quizzes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oracle-schildt.iml" filepath="$PROJECT_DIR$/.idea/oracle-schildt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/regular-exercises/regular-exercises.iml" filepath="$PROJECT_DIR$/regular-exercises/regular-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/try-this/try-this.iml" filepath="$PROJECT_DIR$/try-this/try-this.iml" />
+    </modules>
+  </component>
+</project>
