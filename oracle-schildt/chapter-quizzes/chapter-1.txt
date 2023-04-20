@@ -19,6 +19,7 @@ a) count
 b) $count
 c) count27
 d) 67count --
+e) _count
 
 6 - Como se cria um comentário de linha única? E de várias linhas?
 -- De linha única, usa se duas barras (// texto comentado) no início da linha. Multi linha é inserido através da barra-asterisco com o texto no meio. (/* texto comentado */)

@@ -1,7 +1,7 @@
 class Queue {
 
-	int[] queue;
-	int putData, getData = 0;
+	private int[] queue;
+	private int putData, getData = 0;
 
 	Queue(int size) {
 		queue = new int[size];
