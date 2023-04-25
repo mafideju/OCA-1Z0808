@@ -1,19 +1,23 @@
-class Vehicle {
+package vehicle;
+
+import interfaces.IVehicle;
+
+public class Vehicle implements IVehicle {
     private int passengers;
     private int fuelCapacity;
     private int milesPerGaloon;
 
-    Vehicle(int passengers, int fuelCapacity, int milesPerGaloon) {
+    public Vehicle(int passengers, int fuelCapacity, int milesPerGaloon) {
         this.passengers = passengers;
         this.fuelCapacity = fuelCapacity;
         this.milesPerGaloon = milesPerGaloon;
     }
 
-    int range() {
+    public int range() {
         return milesPerGaloon * fuelCapacity;
     }
 
-    double fuelNeeded(int miles) {
+    public double fuelNeeded(int miles) {
         return (double) miles / milesPerGaloon;
     }
 
@@ -49,14 +53,5 @@ class Vehicle {
                 ", milesPerGaloon=" + milesPerGaloon +
                 ", range=" + range() +
                 '}';
-    }
-}
-
-class TruckDemo {
-
-    public static void main(String[] args) {
-        Vehicle vehicle = new Vehicle(2, 40 ,15);
-        System.out.println(vehicle);
-        System.out.println(vehicle.fuelNeeded(1000));
     }
 }
