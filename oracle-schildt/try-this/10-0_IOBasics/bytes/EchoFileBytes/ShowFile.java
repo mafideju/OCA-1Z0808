@@ -29,12 +29,12 @@ class ShowFile {
 			} while(i != -1);
 		} catch (IOException exception) {
 			System.out.println("+++++++++ Erro lendo arquivo +++++++++");
-		}
-
-		try {
-			inputFile.close();
-		} catch(IOException exception) {
-			System.out.println("####### Erro ao fechar o arquivo ########");
+		} finally {
+			try {
+				inputFile.close();
+			} catch(IOException exception) {
+				System.out.println("####### Erro ao fechar o arquivo ########");
+			}
 		}
 
 	}
